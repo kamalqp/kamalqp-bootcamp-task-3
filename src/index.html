@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تسک دوره جاوااسکریپت</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <style>
+      .descending {
+        stroke: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="title">
+      لیست تراکنش های شما
+      <div class="search-container">
+        <input type="text" class="search-input" placeholder="جستجو در تراکنش ها...">
+
+        <button class="search-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-search"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+            />
+          </svg>
+        </button>
+      </div>
+    </h1>
+    <div class="upload">
+      <button class="upload-btn" aria-label="بارگذاری تراکنش ها">
+        <span>بارگذاری تراکنش ها</span>
+      </button>
+    </div>
+
+    <div class="container">
+      <div class="container__filter">ردیف</div>
+      <div class="container__filter">نوع تراکنش</div>
+      <div class="container__filter">
+        مبلغ
+        <span class="sort price-sort">
+          <svg
+            class="price-icon no-filter"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m8 15 4 4 4-4m0-6-4-4-4 4"
+            />
+          </svg>
+        </span>
+      </div>
+      <div class="container__filter">شماره پیگیری</div>
+      <div class="container__filter">
+        تاریخ تراکنش
+        <span class="sort date-sort">
+          <svg
+            class="date-icon no-filter"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m8 15 4 4 4-4m0-6-4-4-4 4"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+
+    <div class="pay-lists">
+      <!-- <div class="pay__items">
+        <div class="pay__item">10</div>
+        <div class="pay__item">افزایش اعتبار</div>
+        <div class="pay__item">1.000.000</div>
+        <div class="pay__item">123126411</div>
+        <div class="pay__item">
+          <div class="items__time">
+            <span>1399/08/12</span>
+            <span>ساعت</span>
+            <span>12:32</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="pay__items">
+        <div class="pay__item">10</div>
+        <div class="pay__item">افزایش اعتبار</div>
+        <div class="pay__item">1.000.000</div>
+        <div class="pay__item">123126411</div>
+        <div class="pay__item">
+          <div class="items__time">
+            <span>1399/08/12</span>
+            <span>ساعت</span>
+            <span>12:32</span>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Add more rows here -->
+    </div>
+    
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
+
+<!-- 
+<svg
+class="icon ascending"
+width="12"
+height="6"
+viewBox="0 0 12 6"
+fill="none"
+xmlns="http://www.w3.org/2000/svg"
+>
+<path
+  d="M1 5L6 1L11 5"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+/>
+</svg> -->
+
+<!-- 
+<svg
+class="icon descending"
+width="12"
+height="6"
+viewBox="0 0 12 6"
+fill="none"
+xmlns="http://www.w3.org/2000/svg"
+>
+<path
+  d="M1 1L6 5L11 1"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+/>
+</svg> -->
